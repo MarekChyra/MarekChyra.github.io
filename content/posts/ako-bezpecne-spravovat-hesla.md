@@ -58,7 +58,7 @@ Používaním správcu hesiel si vždy musíte pamätať len jedno heslo: hlavn�
 
 # Čo by som mal hľadať v správcovi hesiel?
 
-**Najdôležitejšie je hľadať službu, ktorá má "nulové znalosti". Môžu tiež používať výrazy ako "nulový prístup" alebo "šifrovaný od konca do konca".**
+**Najdôležitejšie je hľadať službu, ktorá má "zero knowledge". Môžu tiež používať výrazy ako "zero access" alebo "end-to-end encrypted".**
 
 (Poznámka: toto sa líši od bežného šifrovania.) To znamená, že žiadny zamestnanec spoločnosti nemôže vidieť vaše heslá a informácie. 
 
