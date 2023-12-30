@@ -1,7 +1,7 @@
 ---
 title: "Vytvaranie bezpecneho systemu"
 date: 2023-12-17
-tags: ["first"]
+tags: ["bezpecnost"]
 author: "Marek Chyra"
 # author: ["Me", "You"] # multiple authors
 description: "Desc Text."
@@ -45,7 +45,7 @@ Väčšina hardvéru má v súčasnosti firmvér, ktorý sa načíta ešte pred 
 
 Spoločnosť Intel odviedla najhoršiu prácu pri zabezpečení svojho systému, pretože bol mnohokrát zneužitý, ako je zdokumentované tu: <https://en.wikipedia.org/wiki/Intel_Management_Engine#Security_vulnerabilities>.
 
-Tieto útoky môžete zmierniť aktualizáciou Intel ME, ale jediným spôsobom, ako dieru odstrániť, je odstránenie, ktoré zahŕňa flashovanie hardvérového firmvéru a ktoré sa v mnohých systémoch nedá vykonať. Vrelo odporúčam nástroj s otvoreným zdrojovým kódom <https://meshcentral.com/>, ktorý je zadarmo a dokáže za vás aktualizovať veľa týchto systémov bez väčších problémov. Ponúka tiež spôsoby, ako nastaviť tento mimopásmový prístup v systéme s možnosťami vPro. 
+Tieto útoky môžete zmierniť aktualizáciou Intel ME, ale jediným spôsobom, ako dieru odstrániť, je odstránenie Intel ME, ktoré zahŕňa flashovanie hardvérového firmvéru a ktoré sa v mnohých systémoch nedá vykonať. Vrelo odporúčam nástroj s otvoreným zdrojovým kódom <https://meshcentral.com/>, ktorý je zadarmo a dokáže za vás aktualizovať veľa týchto systémov bez väčších problémov. Ponúka tiež spôsoby, ako nastaviť tento mimopásmový prístup v systéme s možnosťami vPro. 
 
 V serverovej sfére máte k dispozícii Dell iDRAC a HP iLO pre out of band prístup, ktoré tiež potrebujete zabezpečiť.
 
@@ -59,19 +59,16 @@ Systém Windows je najproblematickejší s rozsiahlou telemetriou a najväčší
 
 Neexistuje webový prehliadač, ktorý by som odporúčal. V súčasnosti používam Brave, ale mohol by byť lepší. Všetky webové prehliadače majú svoje chyby a väčšina z nich vychádza z kódovej základne Google Chrome. 
 
-Pravdepodobne najlepší by bol súkromný Firefox, ktorý si vytvoríte sami pomocou tohto skriptu: <https://github.com/simeononsecurity/FireFox-Privacy-Script>
+Pravdepodobne najlepší by bol Firefox, ktorý si mozete nakonfigurovat pomocou: <https://github.com/arkenfox/user.js>. Alebo potom by som veľmi obporučil [Tor Browser](https://www.torproject.org/), ktorý je anonymný ale veľmi pomalý a veľa stránok vás bude blokovať. Ak by vás to veľmi limitovalo tak môžete vyskúšať [Mullvad Browser](), ktorý je verziou prehliadača Tor Browser s odstránenou integráciou siete Tor, ktorej cieľom je poskytnúť používateľom technológiu prehliadača Tor Browser proti odtlačkom prstov. Je vyvinutá projektom Tor a distribuovaná spoločnosťou Mullvad a nevyžaduje používanie siete VPN spoločnosti Mullvad. Pre viac odporúčaní môžete si pozrieť stránky ako: [PrivacyGuides](https://www.privacyguides.org/en/desktop-browsers/), [PrivacyTests.org](https://privacytests.org/), [Techlore.tech](https://www.techlore.tech/resources.html#desktop-browsers) alebo [The New Oil](https://thenewoil.org/en/guides/most-important/browser/).
 
 ## Správcovia hesiel
 
-Najlepšie by bolo vlastné hosťovanie na bezpečnom mieste, ale pohodlnosť nás často dostane. Najviac odporúčam [Bitwarden](https://bitwarden.com/), ale varoval by som pred mnohými online správcami hesiel, pretože ak niekto získa vaše prihlasovacie meno, všetko bude ohrozené. Najlepším riešením by bol Yubikey alebo iné zariadenie FIDO na fyzické overenie všetkých nových prihlášok alebo zariadení.
+Najlepšie by bolo ukladanie do lokalného zašifrovaného miesta na bezpečnom mieste ([KeePassXC](https://keepassxc.org/)), ale pohodlnosť nás často dostane. Najviac odporúčam [Bitwarden](https://bitwarden.com/), ale varoval by som pred mnohými online správcami hesiel, pretože ak niekto získa vaše prihlasovacie meno, všetko bude ohrozené. Najlepším riešením by bol Yubikey alebo iné FIDO zariadenie na fyzické overenie všetkých nových prihasovaní alebo zariadení. Pre ďalšie odporúčaia môžete navšíviť stránky: [PrivacyGuides](https://www.privacyguides.org/en/passwords/) alebo [The New Oil](https://thenewoil.org/en/guides/most-important/passwords/).
 
 ## Sieťová brána a otvorené porty
 
-
-Otestujte svoju sieť a zistite, ktoré porty sú otvorené pomocou <grc.com>. Ak sa snažíte o bezpečnosť, nemali by ste v smerovači presmerovávať porty ani používať uPnP. Základný test shield up! by vám mal poskytnúť dobrú predstavu o otvorených portoch a oblastiach, v ktorých môžete svoju sieť zlepšiť. Hoci otvorený port nie je koniec sveta, predstavuje zväčšenú plochu na útok, ktorú možno zneužiť. 
-
+Otestujte svoju sieť a zistite, ktoré porty sú otvorené pomocou [grc.com](https://www.grc.com/x/ne.dll?bh0bkyd2). Ak sa snažíte o bezpečnosť, nemali by ste v smerovači presmerovávať porty ani používať uPnP. Základný test shield up! by vám mal poskytnúť dobrú predstavu o otvorených portoch a oblastiach, v ktorých môžete svoju sieť zlepšiť. Hoci otvorený port nie je koniec sveta, predstavuje zväčšenú plochu na útok, ktorú možno zneužiť. 
 
 ## Nebuďte hlúpi
-
 
 Sťahovanie hacknutých programov, klikanie na podvodné odkazy a inštalácia 50 rozšírení do prehliadača nie sú dobré postupy. Existuje niekoľko nástrojov, ktoré vám pomôžu trénovať sa, ale nie sú nepriestrelné. Bezpečnosť je o vrstvení a používaní zdravého rozumu. Nikdy nemôžete byť stopercentne zabezpečení a súkromní.

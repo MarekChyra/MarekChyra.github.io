@@ -34,63 +34,63 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-V tomto clanku si vysvetlime zaklady ako si vytvarat bezpecne hesla.
+V tomto článku si vysvetlime základy, ako si vytvárať bezpečne hesla.
 
-# Ako urobit bezpecne heslo
+# Ako urobiť bezpečné heslo
 
-## Urob si unikatne heslo
+## Urob si unikátne heslo
 
-Pouzivaj ine hesla pre kazdy ucet, co mas.
+Používaj iné heslá pre každý účet, čo máš.
 
-Pouzivanie toho isteho hesla pre viacere ucty je rizikove, lebo ked niekto zisti heslo pre jeden ucet tak uz vie heslo aj pre ine ucty.
+Používanie toho istého hesla pre viaceré účty je rizikové, lebo, keď niekto zistí heslo pre jeden účet tak už vie heslo aj pre iné účty.
 
-Tip: ak si nechces pamatat a vytvarat bezpecne hesla tak mozes pouzit [spravcu hesliel](/posts/ako-bezpecne-spravovat-hesla/)
+Tip: ak si nechceš pamätať a vytvárať bezpečne heslá tak môžeš použiť [správcu hesiel](/posts/ako-bezpecne-spravovat-hesla/)
 
-## Urob si heslo dlhsie a lahsie na zapametanie
+## Urob si heslo dlhšie a ľahšie na zapametanie
 
-Aby ste mali bezpecne heslo tak potrebujete ho mat dostatocne dlhe a zlozite.
+Aby ste mali bezpečné heslo tak potrebujete ho mať dostatočne dlhé a zložité.
 
-Ale ako urobit heslo dlhe a lahko zapametatelne?
+Ale, ako urobiť heslo dlhé a ľahko zapametateľné?
 
-- mozete pouzit cast textu z pesnicky
-- nejaky citat alebo vyrok
-- cast z knihy
-- alebo si vyvorte vetu, ktoru si zapametate s danym uctom (napr. gmail - DajteMiPokojUzSEmailami5840@)
+- Môžete použiť časť textu z pesničky
+- nejaký citát alebo výrok
+- časť z knihy,
+- alebo si vyvorte vetu, ktorú si zapamätáte s daným účtom (napr. g mail - DajteMiPokojUzSEmailami5839@)
 
-Vyhnite sa heslam, ktore mozu byt uhadnute:
+Vyhnite sa heslám, ktoré môžu byť uhadnuté:
 
-- ludmi, ktorych poznate (napr. ked vedia vasu oblubenu pesnicku)
-- ludmi, ktori maju pristum ku vasim verejnym informaciam (napr. prispevky na socialnych mediach)
+- ľuďmi, ktorých poznáte (napr., keď vedia vašu obľúbenú pesničku)
+- ľuďmi, ktorí majú prístup ku vašim verejným informáciám (napr. príspevky na sociálnych médiách)
 
-## Vyhnite sa osobnym udajom a beznym slovam
+## Vyhnite sa osobným údajom a bežným slovám
 
-### Nepouzivajte osobne udaje
+### Nepoužívajte osobne údaje
 
-Vyhnite sa vytavaraniu hesiel, v ktorych mate informacie, ktore su o vas lahko najditelne:
+Vyhnite sa vytavaraniu hesiel, v ktorých máte informácie, ktoré sú o vás ľahko najditelne:
 
-- vasa prezivka alebo inicialy
-- meno vasho dietata alebo domaceho mazlicka
-- narodeniny alebo dolezite roky
-- nazov vasej ulice
-- cisla vasej adresy
-- vese telefonne cislo
+- vaša prezývka, alebo iniciály
+- meno vášho dieťaťa, alebo domáceho mazlicka
+- narodeniny, alebo dôležité roky
+- názov vašej ulice
+- čísla vašej adresy
+- lese telefónne číslo
 
-### Nepouzivajte bezne slova a vzory
+### Nepoužívajte bežného slova a vzory
 
-Vyhnite sa lahkym slovam, frazam a vzorcom, co su lahko na uhadnutie: 
+Vyhnite sa ľahkým slovám, frázam a vzorcom, čo sú ľahko na uhadnutie:
 
-- zrejme slova a frazy ako "heslo", "pustmadnu"
-- sekvencie ako "abcd" alebo "1234"
-- vzory klavesnice ako "qwerty" alebo "qwertz" alebo "qazwsx"
+- zrejme slova a frázy ako "Heslo", "Pustmadnu"
+- Sekvencie ako "Abcd" Alebo "1234"
+- vzory klávesnice ako "Qwerty" Alebo "Qwertz" Alebo "Qazwsx"
 
 # Ako si zapametat hesla
 
-Potom ako si vytvorite silne heslo tak si hu musite aj zapametat ale ked mate vela uctov tak to moze byt kost zlozite.
+Potom, ako si vytvoríte silne heslo tak si hu musíte aj zapametat, ale, keď máte veľa účtov tak to môže byt kosť zložité.
 
-## Ukryte napisane hesla
+## Ukrytého napísaného hesla
 
-Ak si chcete ukladat hesla na papier tak ten papier nenechavajte len tak na stole ale ho niekde skryte, kde je zamknuty alebo ukryty.
+Ak si chcete ukladať hesla na papier tak ten papier nenechávajte len tak na stole, ale ho niekde skryté, kde je zamknutý alebo ukrytý.
 
-## Spravujte si hesla s nastrojom
+## Spravujte si hesla s nástrojom
 
-Ak mate problem so zapametavanim si hesla, tak zvazte pouzivanie doveryhodneho [spravcu hesiel](/posts/ako-bezpecne-spravovat-hesla/).
+Ak máte problém so zapametavanim si hesla, tak zvážte používanie dôveryhodného [správcu hesiel](/posts/ako-bezpecne-spravovat-hesla/).
