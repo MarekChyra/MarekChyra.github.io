@@ -112,10 +112,10 @@ menu:
       name: Search
       url: /search/
       weight: 30
-    - identifier: stranka
-      name: moja stranka
-      url: https://marekchyra.github.io
-      weight: 40
+    # - identifier: stranka
+    #   name: moja stranka
+    #   url: https://marekchyra.github.io
+    #   weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

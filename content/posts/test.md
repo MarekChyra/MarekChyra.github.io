@@ -1,5 +1,5 @@
 ---
-title: "Vytvaranie bezpecneho systemu"
+title: "Vytváranie bezpečného systému"
 date: 2023-12-17
 tags: ["bezpecnost"]
 author: "Marek Chyra"

@@ -1,5 +1,5 @@
 ---
-title: "Tvorba Bezpecneho Hesla"
+title: "Tvorba Bezpečného Hesla"
 date: 2023-12-22
 # weight: 1
 # aliases: ["/first"]
