@@ -1,5 +1,5 @@
 baseURL: "https://marekchyra.github.io"
-title: Moja super stranka
+title: Návody na počítačovú bezpečnosť | Marek Chyra
 paginate: 5
 theme: PaperMod
 
@@ -14,7 +14,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Default title
+  title: Návody na počítačovú bezpečnosť | Marek Chyra
   description: "Default description"
   keywords: []
   author: "Marek Chyra"
@@ -71,8 +71,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Ahoj!"
-    Content: Vitaj na mojej stranke
+    Title: Návody na počítačovú bezpečnosť
+    Content: Marek Chyra
 
   socialIcons:
     - name: github
