@@ -8,7 +8,7 @@ author: "Marek Chyra"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: true
-draft: false
+draft: true
 hidemeta: false
 comments: false
 #description: "Desc Text."
