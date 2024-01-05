@@ -35,6 +35,7 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
+
 # Čo je to správca hesiel?
 
 Správca hesiel je program alebo služba, ktorá umožňuje zaznamenávať prihlasovacie údaje, ako je používateľské meno, heslo, odkaz na prihlásenie a ďalšie údaje.
